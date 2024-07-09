@@ -1,4 +1,6 @@
 import com.android.build.api.dsl.ApplicationExtension
+import com.lihan.convention.ExtensionType
+import com.lihan.convention.configureBuildTypes
 import com.lihan.convention.configureKotlinAndroid
 import com.lihan.convention.libs
 import org.gradle.api.Plugin
@@ -22,7 +24,7 @@ class AndroidApplicationConventionPlugin: Plugin<Project> {
                     versionName = libs.findVersion("projectVersionName").get().toString()
                 }
                 configureKotlinAndroid(this)
-
+                configureBuildTypes(this , ExtensionType.APPLICATION)
             }
         }
 
