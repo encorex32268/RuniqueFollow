@@ -121,3 +121,4 @@ androidDynamicFeature = { id = "com.android.dynamic-feature", version.ref = "agp
 mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secretsPlugin"}
 
 runiquefollow-android-application = { id = "runiquefollow.android.application" , version = "unspecified"}
+runiquefollow-android-application-compose = { id = "runiquefollow.android.application.compose" , version = "unspecified"}

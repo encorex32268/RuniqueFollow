@@ -19,5 +19,10 @@ gradlePlugin {
             id = "runiquefollow.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
+
+        register("androidApplicationCompose"){
+            id = "runiquefollow.android.application.compose"
+            implementationClass = "AndroidApplicationComposeConventionPlugin"
+        }
     }
 }

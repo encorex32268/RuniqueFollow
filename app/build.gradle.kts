@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.mapsplatform.secrets.plugin)
-    alias(libs.plugins.runiquefollow.android.application)
+    alias(libs.plugins.runiquefollow.android.application.compose)
 }
 
 android {
@@ -10,12 +10,6 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-    }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
     }
     packaging {
         resources {
