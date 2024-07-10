@@ -123,3 +123,4 @@ mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.
 runiquefollow-android-application = { id = "runiquefollow.android.application" , version = "unspecified"}
 runiquefollow-android-application-compose = { id = "runiquefollow.android.application.compose" , version = "unspecified"}
 runiquefollow-android-library = { id = "runiquefollow.android.library" , version = "unspecified"}
+runiquefollow-android-library-compose = { id = "runiquefollow.android.library.compose" , version = "unspecified"}
