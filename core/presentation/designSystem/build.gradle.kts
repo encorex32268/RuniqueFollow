@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.lihan.core.presentation.designsystem"
+    namespace = "com.lihan.core.presentation.designSystem"
 }
 
 dependencies {
