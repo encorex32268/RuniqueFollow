@@ -1,6 +1,8 @@
 plugins {
-    alias(libs.plugins.mapsplatform.secrets.plugin)
     alias(libs.plugins.runiquefollow.android.application.compose)
+    alias(libs.plugins.runiquefollow.jvm.ktor)
+    alias(libs.plugins.mapsplatform.secrets.plugin)
+
 }
 
 android {
