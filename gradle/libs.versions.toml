@@ -125,6 +125,7 @@ runiquefollow-android-application-compose = { id = "runiquefollow.android.applic
 runiquefollow-android-library = { id = "runiquefollow.android.library" , version = "unspecified"}
 runiquefollow-android-library-compose = { id = "runiquefollow.android.library.compose" , version = "unspecified"}
 runiquefollow-android-feature-ui = { id = "runiquefollow.android.feature.ui", version = "unspecified" }
+runiquefollow-android-room = { id = "runiquefollow.android.room", version = "unspecified" }
 
 
 [bundles]

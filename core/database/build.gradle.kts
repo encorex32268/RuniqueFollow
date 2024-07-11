@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.runiquefollow.android.library)
-
+    alias(libs.plugins.runiquefollow.android.room)
 }
 
 android {
